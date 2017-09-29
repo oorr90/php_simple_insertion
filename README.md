@@ -1,4 +1,4 @@
-# PHP INSERT - CAFE ORDER FORM
+# PHP Insert - Cafe Order Form
 
 Using an insert query and connecting to mysql
 
