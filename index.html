@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device width, initial-scale=1.0">
+    <title>Quick Forms Review</title>
+</head>
+<body>
+    <h1>Please place your order using the form below</h1>
+    <form action="cafe_insert.php" method="post">
+        <p>
+            <label for="item_name">Name of item:</label>
+            <input type="text" name="item_name" id="item_name" required>
+        </p>
+        <p>
+            <label for="description">Description</label>
+            <input type="text" name="description" id="description" required>
+        </p>
+        <p>
+            <label for="price">Price</label>
+            <input type="number" name="price" id="price" required>
+        </p>
+        <p>
+            <label for="category">Category:</label>
+            <select name="category" id="category">
+                <option value="beverages">Beverages</option>
+                <option value="cookies">Cookies</option>
+                <option value="lunch">Lunch</option>
+                <option value="snacks">Snacks</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Place Order">
+        </p>
+    </form>
+</body>
+</html>
