@@ -9,6 +9,7 @@ I used MAMP and my local server to test this project. Download the project files
 ### Images
 
 Images below show the table structure in mySQL as well as the table after insertion
+![table structure](https://github.com/oorr90/php_simple_insertion/blob/master/screenshots/table_structure.png)
 ![data in table](https://github.com/oorr90/php_simple_insertion/blob/master/screenshots/data_inserted.png)
 
 ### Acknowledgments
